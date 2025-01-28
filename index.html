@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>La Mangrove</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/leaf.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Script Javascript Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!-- Toast trigger (avec JavaScript)-->
+        <script src="js/toast.js" async></script>
+        <!-- Captcha-->
+        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    </head>
+    <body id="page-top">
+        <!-- Toast qui apparait lors de l'ouverture du site web-->
+        <div class="toast position-fixed" data-bs-autohide="false" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Bienvenue à la Mangrove</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Découvre les dernières actualités !
+            </div>
+        </div>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">Présentation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Informations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">La Mangrove</h1>
+                        <!--<a class="btn btn-primary" href="#about">Get Started</a>--> 
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Du Mardi au Samedi, de minuit à 6h00</h2>
+                        <p class="text-white-50">
+                            Les soirées les plus
+                            <a href="https://startbootstrap.com/theme/grayscale/"><b>hot</b></a>
+                            de La Rochelle, oubliez les soucis et vivez un moment inoubliable à <b>la Mangrove</b> !
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/performers.jpg" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4><b>Hot</b></h4>
+                            <p class="text-black-50 mb-0">Tu es au milieu d'une salle sombre, remplie de gens <b>hot</b>, mais toi, tu brilles.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Première page d'information-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/binary.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white"><b>Work</b></h4>
+                                    <p class="mb-0 text-white-50">
+                                        <a href="work.html"><b>Work</b></a>
+                                        ton corps, de haut en bas et de droite à gauche, dans nos trois salles
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Deuxième page d'information-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/party.jpg" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white"><b>Taste</b></h4>
+                                    <p class="mb-0 text-white-50">Oublie tes boissons les plus basiques et viens
+                                        <a href="https://startbootstrap.com/theme/grayscale/"><b>taste</b></a>
+                                        les créations originales
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Troisième page d'information-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/dj.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white"><b>Fire</b></h4>
+                                    <p class="mb-0 text-white-50">Les DJ sont ici les rois du dancefloor, il vont mettre le 
+                                        <a href="https://startbootstrap.com/theme/grayscale/"><b>fire</b></a>
+                                        à l'immeuble
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <!-- Planning des évènements-->
+        <section class="planning-section" id="planning">
+            <div class="col-md-10 col-lg-10 mx-auto text-center">
+                <h2 class="text-black mb-5">Planning</h2>
+                <!-- Table (colonnes)-->
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Évènement</th>
+                            <th scope="col">Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Mardi</th>
+                            <td>Soirées Jungle</td>
+                            <td>
+                                Commence la semaine en ressentant la <b>nature</b> le temps d'une soirée</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Mercredi</th>
+                            <td>Soirée Bubble</td>
+                            <td>
+                                Le mercredi c'est piscine... Ou presque ! <b>Maillot de bain</b> obligatoire !</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Jeudi</th>
+                            <td>Soirées étudiantes</td>
+                            <td>
+                                Le jeudi, on accueille les étudiants du coin pour des soirées <b>à la carte</b>.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Vendredi</th>
+                            <td>Soirées classiques</td>
+                            <td>
+                                Viens finir ta semaine dans une ambbiance plus classique, mais tout aussi <b>incroyable</b>.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Samedi</th>
+                            <td>Soirées classiques</td>
+                            <td>
+                                Après le fare niente du samedi, tu <b>dois</b> venir à la Mangrove !</td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </div>
+        <br>
+        </section>
+        <!-- Signup-->
+        <section class="signup-section" id="signup">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Des questions ?</h2>
+                        <!-- Formulaire-->
+                        <form id = "form_contact">
+                            <div class="mb-3">
+                                <label class="text-white mb-3">Prénom NOM</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="text-white mb-3">Type de demande</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected value="0"></option>
+                                    <option value="1">Réservation VIP</option>
+                                    <option value="2">Demande d'information</option>
+                                    <option value="3">Question</option>
+                                    <option value="4">Autre</option>
+                                </select>    
+                            </div>
+                            <div class="mb-3">
+                                <label class="text-white mb-3">Votre message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+                            <!-- Captcha-->
+                            <div class="h-captcha" data-sitekey="4defd4c1-1083-4fe7-9a46-01ea399869db"></div>                       
+                            <button type="button" class="btn btn-success disabled">Valider !</button>
+                        </form>   
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; La Mangrove 2024</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    </body>
+</html>
